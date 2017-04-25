@@ -86,12 +86,9 @@ class pageCrawel(object):
 def run():
     pageCrawel().getdownloadUrl()
 
-
-
-
 if __name__ == '__main__':
 
-    ###以多继承的方式启动函数 ，并启动了5个线程
+    ###以多进程的方式启动函数 ，并启动了5个进程
 
     # pageCrawel().getdownloadUrl()
     start = time.time()
